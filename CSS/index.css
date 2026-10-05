@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0 4rem;
+    background: #020202;
+    color: #FFFFFF;
+    text-align: center;
+    gap: 5%;
+}
+
+h1 {
+    width: 57px;
+    height: 30px;
+    margin-left: 164px;
+    margin-top: -28px;
+    font-family: 'Sora', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0;
+
+    text-align: center;
+    color: #fff;
+}
+
+.vector {
+    width: 32px;
+    height: 22px;
+    margin-left: -1290px;
+    margin-top: 63px;
+    border-radius: 1px;
+}
+
+.rifaSolidaria {
+    width: 508px;
+    height: 24px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 119px;
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.rifa {
+    width: 508px;
+    height: 94px;
+    margin-left: 94px;
+    display: flex;
+    margin-top: 2px;
+    font-family: 'Sora', sans-serif;
+    font-size: 72px;
+    font-weight: 800;
+}
+
+.frame {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.workes {
+    width: 358px;
+    height: 21px;
+    display: flex;
+    margin-left: 128px;
+    margin-top: -17px;
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #00D0FF;
+}
+
+.textWorks {
+    width: 358px;
+    height: 90px;
+    margin-left: 126px;
+    margin-top: 5px;
+    font-family: 'Sora', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: justify;
+    overflow-wrap: break-word;
+}
+
+
+.sort {
+    width: 278px;
+    height: 30px;
+    display: flex;
+    margin-left: 968px;
+    margin-top: -205px;
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cardsortear {
+    width: fit-content;
+    min-width: 209px;
+    height: 44px;
+    margin-top: 3px;
+    margin-left: 1085px;
+    padding: 0 12px;
+    box-sizing: border-box;
+    background-color: #16b6da;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 30px;
+}
+
+.spanSort {
+    width: 106px;
+    height: 24px;
+    margin-top: 5px;
+    margin-left: -82px;
+    padding: 0;
+    color: #ffff;
+    border: none;
+    background: none;
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.spanResultado {
+    width: 503px;
+    height: 56px;
+    display: flex;
+    margin-top: 34px;
+    margin-left: 964px;
+    font-family: 'Sora', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    color: #00D0FF;
+    display: none;
+}
+
+.click {
+    width: 278px;
+    height: 36px;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 945px;
+    font-family: 'Sora', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.nomeGanhador {
+    width: 503px;
+    height: 56px;
+    margin-top: 34px;
+    margin-left: 964px;
+    font-family: 'Sora', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    color: #00D0FF;
+    display: none;
+}
+
+.emailGanhador {
+    width: 234px;
+    height: 24px;
+    margin-top: 2px;
+    margin-left: 973px;
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #00D0FF;
+    display: none;
+}
+
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.aling-center {
+    text-align: center;
+}
+
+.flex {
+    justify-content: space-between;
+    display: block;
+    margin: 0 auto;
+}
+
+/* .flex img {
+  width: 70px;
+  height: auto;
+} */
+@media screen and (min-width: 800px) {
+    .container {
+        width: 100%;
+    }
+
+    .flex-col {
+        flex-direction: column;
+    }
+}
+
+/* Tag
+Font-size
+Font-weight
+h1
+64px/4rem
+ExtraBold
+h2
+32px/2rem
+Bold
+h3
+24px/1.5rem
+Bold
+p, span, etc..
+16px/1rem
+Semi-bold,medium
+.small
+14px/0.875rem
+Regular
+.smaller
+12px/0.75rem
+Regular */
